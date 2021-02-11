@@ -1,0 +1,24 @@
+body {
+    background-image: url("Bg.gif");
+    background-position: center;
+    background-size: cover;
+}
+#myCanvas
+{
+	border-width:10px;
+	background-color: white; 
+	border-style:ridge;
+}
+
+h1,h4
+{
+	color: white !important;
+}
+p {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 30px;
+}
+h1 {
+    font-size: 40px;
+    font-family: 'Potta One', cursive;
+}
