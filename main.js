@@ -107,12 +107,12 @@ function my_keydown1(e){
         console.log("d key pressed")
     }
 
-    if (car_x_1 > 700){
+    if (car_x_1 > 640){
         console.log("Car 1 won");
         document.getElementById("stats").innerHTML = "Car 1 won"
     }
 
-    if (car_x_2 > 700){
+    else if (car_x_2 > 640){
         console.log("Car 2 won");
         document.getElementById("stats").innerHTML = "Car 2 won"
     }
